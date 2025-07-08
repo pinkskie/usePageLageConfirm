@@ -1,0 +1,36 @@
+{
+  "name": "usePageLeaveConfirm",
+  "version": "1.0.0",
+  "description": "React hook to prevent accidental page or route navigation when there are unsaved changes.",
+  "main": "index.js",
+  "repository": "#",
+  "author": "Nyssanaly Sultanbayev <lipn5757@gmail.com> (https://github.com/pinkskie)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup index.ts --dts --format esm,cjs",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
+    "@vitejs/plugin-react": "^4.6.0",
+    "@vitest/ui": "^3.2.4",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.2",
+    "vitest": "^3.2.4"
+  }
+}
